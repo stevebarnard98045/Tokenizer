@@ -9,7 +9,7 @@ export class HelloWorld extends LitElement {
   // return a promise for contract changes.
   static getMetaConfig() {
     return {
-      controlName: 'iQPro Tokenizer',
+      controlName: 'iQProTokenizer',
       fallbackDisableSubmit: false,
       version: '1.2',
       properties: { //A custom configuration field. See https://help.nintex.com/en-US/formplugins/Reference/CustomField.htm
@@ -33,5 +33,5 @@ export class HelloWorld extends LitElement {
 }
 
 // registering the web component
-const elementName = 'iQPro-Tokenizer';
-customElements.define(elementName, iQPro-Tokenizer);
+const elementName = 'iQProTokenizer';
+customElements.define(elementName, iQProTokenizer);
